@@ -1,0 +1,64 @@
+{
+  "filmes": [
+    {
+      "id": "dd70",
+      "titulo": "Pânico 1",
+      "sinopse": "Sidney Prescott (Neve Campbell) começa a desconfiar que a morte de dois estudantes está relacionada com o falecimento da sua mãe, há cerca de um ano. Enquanto isso, os jovens da pacata cidadezinha começam a receber ligações de um maníaco que faz perguntas sobre filmes de horror. Quem erra, morre. As perguntas seguem uma lógica que será desvendada numa grande festa escolar.",
+      "duracao": 120,
+      "classificacao": "18",
+      "genero": "Terror",
+      "dataInicioExibicao": "2020-10-10",
+      "dataFimExibicao": "2020-10-30"
+    },
+    {
+      "id": "d72a",
+      "titulo": "Carros 2",
+      "sinopse": "Após ganhar a Copa Pistão pela quarta vez, Relâmpago McQueen (Owen Wilson) e sua equipe retornam a Radiator Springs para descansar. Lá ele reencontra Mate (Larry the Cable Guy), seu maior amigo, que aguarda ansioso pelo retorno. Pouco após sua chegada Relâmpago toma conhecimento do Grand Prix Mundial, evento organizado pelo empresário Miles Eixodarroda (Eddie Izzard) onde todos os competidores usarão Alinol, um combustível alternativo. Após ser provocado em um programa de TV por Francesco Bernouilli (John Turturro), um adversário, Relâmpago resolve também competir. Ele decide levar Mate para acompanhá-lo nas corridas, mas logo ele é confundido com um espião americano. Desta forma Mate precisa lidar com Finn McMíssil (Michael Caine) e Holly Caixadibrita (Emily Mortimer), que tentam descobrir qual é o plano do professor Z (Thomas Kretschmann) e seu enigmático chefe para a competição.",
+      "duracao": 120,
+      "classificacao": "Livre",
+      "genero": "Animação",
+      "dataInicioExibicao": "2020-10-10",
+      "dataFimExibicao": "2020-10-30"
+    }
+  ],
+  "salas": [
+    {
+      "id": "b54b",
+      "numero": 1,
+      "capacidade": 120
+    },
+    {
+      "id": "ab57",
+      "numero": 2,
+      "capacidade": 120
+    }
+  ],
+  "sessoes": [
+    {
+      "id": "1ecc",
+      "filmeId": "dd70",
+      "salaId": "b54b",
+      "dataHora": "2025-12-12T22:00"
+    },
+    {
+      "id": "066b",
+      "filmeId": "d72a",
+      "salaId": "ab57",
+      "dataHora": "2025-12-13T15:00"
+    }
+  ],
+  "ingressos": [
+    {
+      "id": "5af7",
+      "sessaoId": "1ecc",
+      "tipo": "INTEIRA",
+      "valor": 120
+    },
+    {
+      "id": "c44c",
+      "sessaoId": "1ecc",
+      "tipo": "MEIA",
+      "valor": 60
+    }
+  ]
+}

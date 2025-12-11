@@ -1,0 +1,67 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* cinza claro, estilo Bootstrap */
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.home-hero {
+  min-height: calc(100vh - 80px);
+  background-image: url("/teste.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-top: 0vh;
+  padding-left: 3.2vw; 
+}
+
+
+.home-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 4rem 4rem;   /* AQUI cresce o bloco */
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+
+  min-width: 780px;    /* garante largura mínima */
+  min-height: 320px;   /* garante altura mínima */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.home-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-overlay p {
+  font-size: 1.25rem;
+}
+
+
+
