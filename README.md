@@ -37,5 +37,6 @@ O projeto faz parte de um laboratório prático e inclui funcionalidades de cada
 - Registros associados à sessão selecionada  
 
 ### **Comandos de Execussão**
-- npm run dev
-- npm run dev
+- npm run server // backend
+- npm run dev   // frontend
+ 
