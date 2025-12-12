@@ -35,3 +35,7 @@ O projeto faz parte de um laboratório prático e inclui funcionalidades de cada
 ### **Ingressos**
 - Venda de ingressos (inteira / meia)  
 - Registros associados à sessão selecionada  
+
+### **Comandos de Execussão**
+- npm run dev
+- npm run dev
